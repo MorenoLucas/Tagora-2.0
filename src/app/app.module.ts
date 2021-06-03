@@ -19,6 +19,17 @@ import { DetailTattooComponent } from './pages/detail-tattoo/detail-tattoo.compo
 import { DetailProductComponent } from './pages/detail-product/detail-product.component';
 import { DetailEventComponent } from './pages/detail-event/detail-event.component';
 
+//credential
+import {FB_CONFIG} from '../../credentials';
+
+//firebase imports
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +51,11 @@ import { DetailEventComponent } from './pages/detail-event/detail-event.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFireModule.initializeApp(FB_CONFIG),
+    AngularFirestoreModule, // firestore
+    AngularFireAuthModule, // auth
+    AngularFireStorageModule // storage
   ],
   providers: [],
   bootstrap: [AppComponent]
