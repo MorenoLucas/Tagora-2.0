@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+        "postNombre":"Test de Producto 1",
+        "postImg":"https://media.istockphoto.com/photos/tattoo-machine-with-needle-close-up-picture-id471391012?k=6&m=471391012&s=170667a&w=0&h=rsNkw8PKAaxK_NEtbMq_17ys7PKlwLYvB7vMoE_QoE4=",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Tags":["Maquinas","Others"],
+        "UserID": 1 ,
+        "Precio": 10
+    },
+    {
+        "postNombre":"Test de Producto 2",
+        "postImg":"https://media.istockphoto.com/photos/tattoo-machine-with-needle-close-up-picture-id471391012?k=6&m=471391012&s=170667a&w=0&h=rsNkw8PKAaxK_NEtbMq_17ys7PKlwLYvB7vMoE_QoE4=",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Tags":["Tintas"],
+        "UserID": 2 ,
+        "Precio": 500
+    },
+    {
+        "postNombre":"Test de Producto 3",
+        "postImg":"https://media.istockphoto.com/photos/tattoo-machine-with-needle-close-up-picture-id471391012?k=6&m=471391012&s=170667a&w=0&h=rsNkw8PKAaxK_NEtbMq_17ys7PKlwLYvB7vMoE_QoE4=",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Tags":["Agujas"],
+        "UserID": 2 ,
+        "Precio": 40
+    },
+    {
+        "postNombre":"Test de Producto 4",
+        "postImg":"https://media.istockphoto.com/photos/tattoo-machine-with-needle-close-up-picture-id471391012?k=6&m=471391012&s=170667a&w=0&h=rsNkw8PKAaxK_NEtbMq_17ys7PKlwLYvB7vMoE_QoE4=",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Tags":["Higiene","Agujas","Tintas"],
+        "UserID": 5 ,
+        "Precio": 600
+    },
+    {
+        "postNombre":"Test de Producto 5",
+        "postImg":"https://media.istockphoto.com/photos/tattoo-machine-with-needle-close-up-picture-id471391012?k=6&m=471391012&s=170667a&w=0&h=rsNkw8PKAaxK_NEtbMq_17ys7PKlwLYvB7vMoE_QoE4=",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Tags":["GripsTubo"],
+        "UserID": 2 ,
+        "Precio": 600
+    },
+    {
+        "postNombre":"Test de Producto 6",
+        "postImg":"https://media.istockphoto.com/photos/tattoo-machine-with-needle-close-up-picture-id471391012?k=6&m=471391012&s=170667a&w=0&h=rsNkw8PKAaxK_NEtbMq_17ys7PKlwLYvB7vMoE_QoE4=",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Tags":["TransferDiseño"],
+        "UserID": 7 ,
+        "Precio": 600
+    },
+    {
+        "postNombre":"Test de Producto 7",
+        "postImg":"https://media.istockphoto.com/photos/tattoo-machine-with-needle-close-up-picture-id471391012?k=6&m=471391012&s=170667a&w=0&h=rsNkw8PKAaxK_NEtbMq_17ys7PKlwLYvB7vMoE_QoE4=",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Tags":["Fuentes","TransferDiseño"],
+        "UserID": 7 ,
+        "Precio": 600
+    },
+    {
+        "postNombre":"Test de Producto 8",
+        "postImg":"https://media.istockphoto.com/photos/tattoo-machine-with-needle-close-up-picture-id471391012?k=6&m=471391012&s=170667a&w=0&h=rsNkw8PKAaxK_NEtbMq_17ys7PKlwLYvB7vMoE_QoE4=",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Tags":["GripsTubo","Agujas"],
+        "UserID": 7 ,
+        "Precio": 600
+    },
+    {
+        "postNombre":"Test de Producto 9",
+        "postImg":"https://media.istockphoto.com/photos/tattoo-machine-with-needle-close-up-picture-id471391012?k=6&m=471391012&s=170667a&w=0&h=rsNkw8PKAaxK_NEtbMq_17ys7PKlwLYvB7vMoE_QoE4=",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Tags":["Others","Maquinas"],
+        "UserID": 7 ,
+        "Precio": 600
+    },
+    {
+        "postNombre":"Test de Producto 10",
+        "postImg":"https://media.istockphoto.com/photos/tattoo-machine-with-needle-close-up-picture-id471391012?k=6&m=471391012&s=170667a&w=0&h=rsNkw8PKAaxK_NEtbMq_17ys7PKlwLYvB7vMoE_QoE4=",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Tags":["Higiene"],
+        "UserID": 7 ,
+        "Precio": 600
+    }
+  ]
+}

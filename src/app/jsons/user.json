@@ -1,0 +1,87 @@
+[
+  {
+    "UserID": 1,
+    "nombre": "Maria",
+    "apellidos": "Dhoe Doinks",
+    "alias": "Jhonny",
+    "password": "PotatoKawaii",
+    "email": "tatuadorA@gmail.com",
+    "isTatuador": true,
+    "tel": 111111111 ,
+    "imgUsuario": "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg",
+    "valoracion": [3.5,4,3,2.5,4.5]
+
+  },
+  {
+    "UserID": 2,
+    "nombre": "Marc",
+    "apellidos": "Jupiter Patagonia",
+    "alias": "Yuing",
+    "password": "123456",
+    "email": "tatuadorB@gmail.com",
+    "isTatuador": true,
+    "tel": 111111111 ,
+    "imgUsuario": "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg",
+    "valoracion": [3.5,4,3,2,2]
+  },
+  {
+    "UserID": 3,
+    "nombre": "Nora",
+    "apellidos": "Fern",
+    "alias": "Teteju",
+    "password": "PotatoKawaii",
+    "email": "userA@gmail.com",
+    "isTatuador": false,
+    "tel": 111111111 ,
+    "imgUsuario": "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg",
+    "valoracion": [3.5,3,2,3,3]
+  },
+  {
+    "UserID": 4,
+    "nombre": "Dwayne",
+    "apellidos": "Gerbil",
+    "alias": "aaaaaaaa",
+    "password": "PotatoKawaii",
+    "email": "tatuadorC@gmail.com",
+    "isTatuador": true,
+    "tel": 111111111 ,
+    "imgUsuario": "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg",
+    "valoracion": [3.5,3,2,3,3]
+  },
+  {
+    "UserID": 5,
+    "nombre": "Lucas",
+    "apellidos": "Arietti",
+    "alias": "aaaaaaaa",
+    "password": "PotatoKawaii",
+    "email": "userB@gmail.com",
+    "isTatuador": false,
+    "tel": 111111111 ,
+    "imgUsuario": "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg",
+    "valoracion": [3.5,3,2,3,3]
+  },
+  {
+    "UserID": 6,
+    "nombre": "Dwayne",
+    "apellidos": "Gerbil",
+    "alias": "aaaaaaaa",
+    "password": "PotatoKawaii",
+    "email": "userC@gmail.com",
+    "isTatuador": false,
+    "tel": 111111111 ,
+    "imgUsuario": "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg",
+    "valoracion": [3.5,3,2,3,3]
+  },
+  {
+    "UserID": 7,
+    "nombre": "Jordi",
+    "apellidos": "Tyrone",
+    "alias": "aaaaaaaa",
+    "password": "PotatoKawaii",
+    "email": "tatuadorD@gmail.com",
+    "isTatuador": true,
+    "tel": 111111111 ,
+    "imgUsuario": "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg",
+    "valoracion": [3.5,3,2,3,3]
+  }
+]
