@@ -12,8 +12,14 @@ export class LoginComponent implements OnInit {
   constructor(public userService: UserService) {}
 
   ngOnInit(): void {}
+
   login() {
     const user = { email: this.email, password: this.password };
-    this.userService.login(user);
+    this.userService.login(user).subscribe((datos) => {
+      datos.forEach((doc) => {
+        // devuelve el id.
+        console.log(doc.id);
+      });
+    });
   }
 }
