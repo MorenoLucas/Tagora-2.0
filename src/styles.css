@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root{
+  --red-color:#F83C3C;
+  --white-bones-color:#FFF8E9;
+}
+
+
+body{
+  background-color: var(--white-bones-color);
+  font-family: 'Poppins';
+}
+
