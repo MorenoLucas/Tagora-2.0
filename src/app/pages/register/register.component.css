@@ -1,0 +1,157 @@
+#contenidoLogin {
+  padding-top: 12vh;
+  width: 90vw;
+  display: block;
+  margin: auto;
+}
+
+#tabla {
+  width: 80vw;
+  margin: auto;
+  padding: 20px;
+  border: 4px solid black;
+  border-radius: 20px;
+}
+
+#formRegistro {
+  width: 60vw;
+  display: block;
+  margin: auto;
+}
+
+label {
+  font-size: 18px;
+  font-family: "Josefin Sans";
+  font-weight: 800;
+}
+
+input {
+  display: block;
+  margin: 5px auto 15px auto;
+  padding: 10px 15px;
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 14px;
+  font-family: "Poppins";
+}
+
+input::placeholder {
+  color: rgb(255, 72, 72);
+}
+
+#selector {
+  position: relative;
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+}
+
+select {
+  margin: 5px auto 15px auto;
+  padding: 15px 15px;
+  width: 100%;
+  border-radius: 40px;
+  color: rgb(255, 248, 233);
+  background-color: black;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+}
+
+#politica {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin: 5px 10px 20px 10px;
+}
+
+#politica button {
+  border: 2px dashed rgb(255, 72, 72);
+  border-radius: 100px;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+
+#politica button:hover {
+  border: 2px solid rgb(255, 72, 72);
+  border-radius: 100px;
+  background-color: rgb(255, 72, 72);
+}
+
+#politica p {
+  font-size: 12px;
+  color: black;
+}
+
+button#registro {
+  background-color: rgb(255, 72, 72);
+  border: 4px solid rgb(255, 248, 233);
+  border-radius: 90px;
+  width: 70%;
+  height: 50px;
+  color: rgb(255, 248, 233);
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0px 0px 1px 3px black;
+  text-transform: uppercase;
+  font-family: "Josefin Sans";
+}
+
+button#registro:hover {
+  transform: scale(1.1);
+}
+
+#registroExterno {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 90vw;
+}
+
+#registroExterno button {
+  width: 160px;
+  height: 70px;
+  background-color: rgb(56, 56, 155);
+  border: none;
+  border-radius: 90px;
+  box-shadow: 0px 2px 6px 2px rgb(17, 17, 17, 0.4);
+  padding: 20px;
+  margin-top: 14px;
+  color: rgb(255, 248, 233);
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+
+#registroExterno button:hover {
+  width: 160px;
+  height: 70px;
+  background-color: rgb(56, 56, 155);
+  border: none;
+  border-radius: 90px;
+  box-shadow: 0px 2px 6px 2px rgb(17, 17, 17, 0.4);
+  padding: 20px;
+  margin-top: 14px;
+  color: rgb(255, 248, 233);
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  transform: scale(1.1);
+}
+
+#registroExterno button:nth-child(2) {
+  background-color: rgb(255, 248, 233);
+  color: rgb(255, 72, 72);
+}

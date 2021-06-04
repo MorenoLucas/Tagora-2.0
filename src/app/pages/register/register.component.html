@@ -1,1 +1,55 @@
-<p>register works!</p>
+<app-header></app-header>
+
+<div id="contenidoLogin">
+  <div id="tabla">
+    <form id="formRegistro" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <label for="name">Name*</label>
+      <input
+        type="text"
+        name="name"
+        formControlName="name"
+        placeholder="Escribe tu nombre"
+      />
+
+      <label for="email">Email*</label>
+      <input
+        type="text"
+        name="email"
+        formControlName="email"
+        placeholder="Escribe tu email"
+      />
+
+      <label for="Pasword">Pasword*</label>
+      <input
+        type="text"
+        formControlName="password"
+        name="pasword"
+        placeholder="Escribe tu pasword"
+      />
+
+      <div class="selector">
+        <label for="tipo"
+          >Tauador
+          <input type="checkbox" name="" id="" formControlName="isTatuador"
+        /></label>
+      </div>
+
+      <button type="submit" id="registro" [disabled]="!registerForm.valid">
+        Log In
+      </button>
+    </form>
+    <!-- Check  -->
+    <!-- 
+    <div id="politica">
+      <button></button>
+      <p class="checkmark">
+        He leído y acepto los términos y condiciones de uso*
+      </p>
+    </div> -->
+  </div>
+
+  <div id="registroExterno">
+    <button>Log in with</button>
+    <button>Log in with</button>
+  </div>
+</div>
