@@ -2,7 +2,7 @@ import {ProductPost} from '../classes/product-post';
 import {TattooPost} from '../classes/tattoo-post';
 
 export class User {
-  id: number;
+  id: string;
   nombre: String;
   apellidos: String;
   alias: String;
@@ -11,12 +11,13 @@ export class User {
   isTatuador: boolean;
   tel: number;
   imgUsuario: string;
+  valoracionArray: number[];
   valoracion: number;
   TattooPosts: number[];
   ProductPosts: number[];
 
   constructor(
-    newID: number,
+    newID: string,
     newNombre: String,
     newApellidos: String,
     newAlias: String,
@@ -35,10 +36,12 @@ export class User {
       this.tel = newTel;
       this.imgUsuario = newImgUsuario;
       this.isTatuador = newIsTatuador;
+      this.valoracionArray = [];
       this.valoracion = 0;
       this.TattooPosts = [];
       this.ProductPosts = [];
   }
+
 
   getPersonAlias(){
     return this.alias;

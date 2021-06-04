@@ -6,6 +6,7 @@ import {
   FormBuilder,
   Validators,
 } from '@angular/forms';
+import { DBCatcherService } from 'src/app/services/dbcatcher.service';
 
 @Component({
   selector: 'app-register',
@@ -15,20 +16,20 @@ import {
 export class RegisterComponent implements OnInit {
   registerForm: FormGroup;
 
-  constructor(private fb: FormBuilder, private db: AngularFirestore) {}
+  constructor(private fb: FormBuilder, private dbCatcher: DBCatcherService) {}
 
   ngOnInit(): void {
     this.registerForm = this.fb.group({
-      name: ['', Validators.required],
+      alias: ['', Validators.required],
       email: ['', Validators.required],
       password: ['', Validators.required],
-      isTatuador: ['', Validators.required],
+      isTatuador: [false],
     });
   }
 
   async onSubmit() {
     console.warn(this.registerForm.getRawValue());
     const data = this.registerForm.getRawValue();
-    const idObject = await this.db.collection('Users').add(data);
+    await this.dbCatcher.setNewUser(data);
   }
 }

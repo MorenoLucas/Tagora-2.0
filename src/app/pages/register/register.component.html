@@ -3,12 +3,12 @@
 <div id="contenidoLogin">
   <div id="tabla">
     <form id="formRegistro" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-      <label for="name">Name*</label>
+      <label for="alias">Alias*</label>
       <input
         type="text"
-        name="name"
-        formControlName="name"
-        placeholder="Escribe tu nombre"
+        name="alias"
+        formControlName="alias"
+        placeholder="Escribe tu nick"
       />
 
       <label for="email">Email*</label>
@@ -39,7 +39,7 @@
       </button>
     </form>
     <!-- Check  -->
-    <!-- 
+    <!--
     <div id="politica">
       <button></button>
       <p class="checkmark">
