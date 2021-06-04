@@ -29,7 +29,8 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 
 // Formulario
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     DetailTattooComponent,
     DetailProductComponent,
     DetailEventComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -58,6 +60,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     AngularFireAuthModule, // auth
     AngularFireStorageModule, // storage
     ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
