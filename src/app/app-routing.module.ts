@@ -15,17 +15,17 @@ import { UserPersonalComponent } from './pages/user-personal/user-personal.compo
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
-  { path: '/tattoos', component: TattooComponent },
-  { path: '/product', component: ProductComponent },
-  { path: '/chat', component: ChatComponent },
-  { path: '/events/detail/:id', component: DetailEventComponent },
-  { path: '/product/detail/:id', component: DetailProductComponent },
-  { path: '/tattoos/detail/:id', component: DetailTattooComponent },
-  { path: '/envents', component: EventsComponent },
-  { path: '/options', component: OptionsComponent },
-  { path: '/register', component: RegisterComponent },
-  { path: '/user', component: UserPersonalComponent },
-  { path: '/user/external', component: UserPersonalExternoComponent },
+  { path: 'tattoos', component: TattooComponent },
+  { path: 'product', component: ProductComponent },
+  { path: 'chat', component: ChatComponent },
+  { path: 'events/detail/:id', component: DetailEventComponent },
+  { path: 'product/detail/:id', component: DetailProductComponent },
+  { path: 'tattoos/detail/:id', component: DetailTattooComponent },
+  { path: 'envents', component: EventsComponent },
+  { path: 'options', component: OptionsComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'user', component: UserPersonalComponent },
+  { path: 'user/external', component: UserPersonalExternoComponent },
 ];
 
 @NgModule({
