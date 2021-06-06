@@ -32,6 +32,9 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
 
+//Cookie
+import { CookieService } from 'ngx-cookie-service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,7 +65,7 @@ import { LoginComponent } from './components/login/login.component';
     ReactiveFormsModule,
     FormsModule,
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
