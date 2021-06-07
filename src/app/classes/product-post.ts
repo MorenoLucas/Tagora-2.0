@@ -6,7 +6,7 @@ export class ProductPost  {
   Descripcion: String;
   Tags: String[] = [];
   Precio: number;
-  UserID: number;
+  UserID: string;
   VendorValoracion: number;
 
   constructor(postName, postImg, description, tags, UserID, price , vendorValoracion = 0){
