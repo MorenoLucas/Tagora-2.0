@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'events/detail/:id', component: DetailEventComponent },
   { path: 'product/detail/:id', component: DetailProductComponent },
   { path: 'tattoos/detail/:id', component: DetailTattooComponent },
-  { path: 'envents', component: EventsComponent },
+  { path: 'events', component: EventsComponent },
   { path: 'options', component: OptionsComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'user', component: UserPersonalComponent },
