@@ -20,7 +20,7 @@ import { DetailProductComponent } from './pages/detail-product/detail-product.co
 import { DetailEventComponent } from './pages/detail-event/detail-event.component';
 
 //credential
-import {FB_CONFIG} from '../../credentials';
+import { FB_CONFIG } from '../../credentials';
 
 //firebase imports
 import { AngularFireModule } from '@angular/fire';
@@ -28,7 +28,8 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 
-
+// Formulario
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
     OptionsComponent,
     DetailTattooComponent,
     DetailProductComponent,
-    DetailEventComponent
+    DetailEventComponent,
   ],
   imports: [
     BrowserModule,
@@ -55,9 +56,10 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
     AngularFireModule.initializeApp(FB_CONFIG),
     AngularFirestoreModule, // firestore
     AngularFireAuthModule, // auth
-    AngularFireStorageModule // storage
+    AngularFireStorageModule, // storage
+    ReactiveFormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

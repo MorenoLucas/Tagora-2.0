@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DBCatcherService } from 'src/app/services/dbcatcher.service';
+
 
 @Component({
   selector: 'app-homepage',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dbCatcher: DBCatcherService) { }
 
   ngOnInit(): void {
   }
