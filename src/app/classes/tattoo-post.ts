@@ -5,7 +5,7 @@ export class TattooPost {
   postImg: String;
   Descripcion: String;
   Tags: String[] = [];
-  UserID: number;
+  UserID: string;
   likes: number;
 
   constructor(postName, postImg, description, tags, UserID, likes){
