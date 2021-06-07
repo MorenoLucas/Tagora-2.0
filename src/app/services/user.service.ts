@@ -15,7 +15,7 @@ export class UserService {
         .where('email', '==', user.email)
         .where('password', '==', user.password);
 
-    //  buscar en base de datos y comprar email y contraseña, devuelve ID
+    //  buscar en base de datos y comprar email y contraseña, devuelve un observable con el usuario
     return this.db.collection('Users', filter).get();
   }
   setToken(token) {
@@ -24,7 +24,7 @@ export class UserService {
   getToken() {
     return this.cookies.get('token');
   }
-  // aqui abria que devolver el usuario
+  // aqui  devuelve el usuario
   getUser() {
     const token = this.getUserLogged;
     const filter = (ref) => ref.where('userID', '==', token);
