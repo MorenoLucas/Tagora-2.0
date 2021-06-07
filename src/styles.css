@@ -14,5 +14,7 @@
 body{
   background-color: var(--white-bones-color);
   font-family: 'Poppins';
+  width:100vw;
+  height:100vh;
 }
 
