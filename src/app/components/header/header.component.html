@@ -12,7 +12,6 @@
   <div id="nav">
     <img id="home" src="../../../assets/imgs/1x/home-white.png" />
     <img id="machine" src="../../../assets/imgs/machine-tattoo-white-12.svg" />
-
     <button id="perfil"></button>
     <img id="shop" src="../../../assets/imgs/1x/shop-white.png" />
     <img id="community" src="../../../assets/imgs/1x/community-white.png" />
@@ -22,10 +21,26 @@
 <div id="containerPc">
   <div id="nav">
     <button id="perfil"></button>
-    <img id="home" src="../../../assets/imgs/1x/home-black.png" />
-    <img id="machine" src="../../../assets/imgs/machine-black-09.svg" />
-    <img id="shop" src="../../../assets/imgs/1x/shop-black.png" />
-    <img id="community" src="../../../assets/imgs/1x/comunity-black.png" />
+    <img
+      id="home"
+      src="../../../assets/imgs/1x/home-black.png"
+      (click)="goHome()"
+    />
+    <img
+      id="machine"
+      src="../../../assets/imgs/machine-black-09.svg"
+      (click)="goTattoos()"
+    />
+    <img
+      id="shop"
+      src="../../../assets/imgs/1x/shop-black.png"
+      (click)="goProduct()"
+    />
+    <img
+      id="community"
+      src="../../../assets/imgs/1x/comunity-black.png"
+      (click)="goEvents()"
+    />
   </div>
 
   <div id="header">
