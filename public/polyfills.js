@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\Trabajo\Barcelona Activa\Programación HTML Y CSS\Proyectos\MaquetacionHTML_BA_JM\MaquetacionHTML_BA_JM\ProyectosFInales_Modulo6\Tagora-2.0\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! E:\IT Academy\0. FRONT-END DEVELOPER\3. Javascript\ejercicios repaso\ejercicios-luis\TAGORA-2.0\Tagora-2.0\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
