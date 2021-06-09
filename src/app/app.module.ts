@@ -34,6 +34,8 @@ import { LoginComponent } from './components/login/login.component';
 
 //Cookie
 import { CookieService } from 'ngx-cookie-service';
+import { UploadComponent } from './components/upload/upload.component';
+import { UploadPageComponent } from './pages/upload-page/upload-page.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +56,8 @@ import { CookieService } from 'ngx-cookie-service';
     DetailProductComponent,
     DetailEventComponent,
     LoginComponent,
+    UploadComponent,
+    UploadPageComponent,
   ],
   imports: [
     BrowserModule,

@@ -25,7 +25,8 @@ export class User {
     newEmail: string,
     newIsTatuador: boolean = false,
     newTel: number = 111111111,
-    newImgUsuario: string = "https://media.istockphoto.com/photos/handsome-and-happy-picture-id516065432?k=6&m=516065432&s=612x612&w=0&h=0On1LTM9MSRBK7DlQPd71uakgMR74moV4LSgv-ZLQmk=") {
+    newImgUsuario: string = "https://media.istockphoto.com/photos/handsome-and-happy-picture-id516065432?k=6&m=516065432&s=612x612&w=0&h=0On1LTM9MSRBK7DlQPd71uakgMR74moV4LSgv-ZLQmk=",
+    valoracionArray = []) {
 
       this.id = newID;
       this.nombre = newNombre;
@@ -36,8 +37,16 @@ export class User {
       this.tel = newTel;
       this.imgUsuario = newImgUsuario;
       this.isTatuador = newIsTatuador;
-      this.valoracionArray = [];
-      this.valoracion = 0;
+      this.valoracionArray = valoracionArray;
+
+      let tempavg = 0;
+
+      for(let i = 0; i < this.valoracionArray.length; i++){
+        tempavg += this.valoracionArray[i];
+      }
+      this.valoracion = tempavg / valoracionArray.length;
+
+
       this.TattooPosts = [];
       this.ProductPosts = [];
   }
