@@ -6,6 +6,7 @@ import { UserService } from 'src/app/services/user.service';
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
+  providers: [UserService],
 })
 export class LoginComponent implements OnInit {
   email: string;
@@ -14,7 +15,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  login() {
+  async login() {
     const user = { email: this.email, password: this.password };
     this.userService.login(user).subscribe((datos) => {
       datos.forEach((doc) => {
@@ -26,5 +27,9 @@ export class LoginComponent implements OnInit {
         this.router.navigateByUrl('/');
       });
     });
+    const usuario = await this.userService.loginAuth(this.email, this.password);
+    if (usuario) {
+      // te lleva al home
+    }
   }
 }

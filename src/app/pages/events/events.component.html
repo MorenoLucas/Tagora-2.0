@@ -1,1 +1,3 @@
-<app-login></app-login>
+<app-login *ngIf="!user$"></app-login>
+
+<p>{{ user$ | async | json }}</p>

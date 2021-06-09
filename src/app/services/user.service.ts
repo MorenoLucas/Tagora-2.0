@@ -1,13 +1,21 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { CookieService } from 'ngx-cookie-service';
-import { Observable } from 'rxjs';
+// import { auth } from 'firebase/app';
+// import { User } from 'firebase';
+import { AngularFireAuth } from '@angular/fire/auth';
+import { first } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root',
 })
 export class UserService {
-  constructor(private db: AngularFirestore, private cookies: CookieService) {}
+  public user;
+  constructor(
+    private db: AngularFirestore,
+    private cookies: CookieService,
+    public afAuth: AngularFireAuth
+  ) {}
 
   login(user: any) {
     const filter = (ref) =>
@@ -33,4 +41,39 @@ export class UserService {
   getUserLogged() {
     return this.getToken();
   }
+  // Autentificación con firebase
+  async loginAuth(email: string, password: string) {
+    try {
+      const result = await this.afAuth.signInWithEmailAndPassword(
+        email,
+        password
+      );
+      return result;
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  async registerAuth(email: string, password: string) {
+    try {
+      const result = await this.afAuth.createUserWithEmailAndPassword(
+        email,
+        password
+      );
+      return result;
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  async logout() {
+    try {
+      await this.afAuth.signOut();
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  getCurrentUser() {
+    return this.afAuth.authState.pipe(first()).toPromise();
+  }
 }
+//  mostrar al usuario registrado en distinto componente,
+//  public user$: Observable <any> = this.userService.afAuth.user

@@ -14,6 +14,7 @@ import { UserService } from 'src/app/services/user.service';
   selector: 'app-register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css'],
+  providers: [UserService],
 })
 export class RegisterComponent implements OnInit {
   registerForm: FormGroup;
@@ -45,5 +46,6 @@ export class RegisterComponent implements OnInit {
         this.router.navigateByUrl('/');
       });
     });
+    this.userService.registerAuth(data.email, data.password);
   }
 }
