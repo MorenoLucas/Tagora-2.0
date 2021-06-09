@@ -1,12 +1,21 @@
 @media screen and (max-width:767px) {
-#container{
+#containerHeader{
   flex-direction: column;
   position:fixed;
-  display:flex;
-  justify-content: space-between;
+  display:block;
+  top:0;
   width:100vw;
-  height:100vh;
-  margin:0px;
+  height:10vh;
+  z-index: 1;
+}
+
+#containerNav{
+  flex-direction: column;
+  position:fixed;
+  display:block;
+  width:100vw;
+  height:14vh;
+  bottom:0;
   z-index: 1;
 }
 
@@ -80,18 +89,17 @@ input::placeholder{
   border-left:3px solid var(--white-bones-color) ;
   border-bottom:0px none var(--white-bones-color) ;;
   box-shadow: 0px -2px 8px 2px rgb(19, 19, 19, 0.4);
-
 }
 
 #perfil{
   position:absolute;
   display:block;
   margin:auto;
-  width:3.9em;
-  height: 3.9em;
+  width:4.4em;
+  height: 4.4em;
   border-radius: 100px;
   border:3px solid var(--white-bones-color);
-  top:-2em;
+  top:-2.4em;
   box-shadow: 0px -2px 8px 2px rgb(19, 19, 19, 0.4);
   background-color: var(--red-color);
   background-image: url(../../../assets/imgs/plus-circle-user-02.svg);

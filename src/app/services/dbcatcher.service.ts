@@ -117,10 +117,6 @@ export class DBCatcherService {
     return dateString + randomChain;
   }
 
-  getUser(){
-
-  }
-
 
   setUserToFirestore(){
     this.db.collection("Users").doc(this.tempuser.id.toString()).set({
@@ -154,6 +150,7 @@ export class DBCatcherService {
   }
 
 
+  // ----------------------------- GETTERS & SETTERS -----------------------------------
   getUserList() {
     return this.UserList;
   }

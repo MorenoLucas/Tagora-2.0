@@ -10,6 +10,7 @@ import { OptionsComponent } from './pages/options/options.component';
 import { ProductComponent } from './pages/product/product.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { TattooComponent } from './pages/tattoo/tattoo.component';
+import { UploadPageComponent } from './pages/upload-page/upload-page.component';
 import { UserPersonalExternoComponent } from './pages/user-personal-externo/user-personal-externo.component';
 import { UserPersonalComponent } from './pages/user-personal/user-personal.component';
 
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'user', component: UserPersonalComponent },
   { path: 'user/external', component: UserPersonalExternoComponent },
+  { path: 'upload', component: UploadPageComponent },
 ];
 
 @NgModule({
